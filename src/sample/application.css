@@ -1,0 +1,99 @@
+.root {
+ -fx-background-color: #FFFFFF;
+}
+
+.label{
+ -fx-font-weight: bold;
+}
+
+.text-field{
+    -fx-max-width: 40;
+    -fx-alignment: center;
+}
+
+
+.button {
+ -fx-background-color: #A9E4ED;
+ -fx-background-radius: 6, 5;
+ -fx-background-insets: 0, 1;
+ -fx-width: auto;
+}
+
+.button:pressed {
+ -fx-background-color: #D5D5D5;
+}
+
+#comboBox{
+ -fx-background-color: #A9E4ED;
+ -fx-background-radius: 6, 5;
+ -fx-background-insets: 0, 1;
+ -fx-pref-width: 190;
+}
+
+#btClear{
+    -fx-pref-width: 190;
+    -fx-text-align: center;
+}
+
+#btRandomDirt{
+    -fx-pref-width: 190;
+    -fx-text-align: center;
+}
+
+#btStart{
+    -fx-background-color: #4CAF50;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    }
+
+#btStart:pressed{
+    -fx-background-color: #D5D5D5;
+}
+
+#btStop{
+    -fx-background-color: #E20404;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    }
+
+#btStop:pressed{
+    -fx-background-color: #D5D5D5;
+}
+
+#btAddAgent{
+    -fx-background-color: #F7DB24;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 120;
+}
+
+#btAddAgent:pressed{
+    -fx-background-color: #D5D5D5;
+}
+
+#btAddDirtAgent{
+    -fx-background-color: #EC002E;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 120;
+}
+
+#btAddDirtAgent:pressed{
+    -fx-background-color: #D5D5D5;
+}
+
+#btAddDirt{
+    -fx-background-color: #5B391C;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 120;
+}
+
+#btAddDirt:pressed{
+    -fx-background-color: #D5D5D5;
+}
+
+#btAddWall{
+    -fx-background-color: #000000;
+    -fx-text-fill: #FFFFFF;
+    -fx-pref-width: 120;
+}
+
+#btAddWall:pressed{
+    -fx-background-color: #D5D5D5;
+}
